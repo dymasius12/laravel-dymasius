@@ -756,11 +756,18 @@ body{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
 .font-bold{
   font-weight: 700;
 }
 .font-semibold{
   font-weight: 600;
+}
+.font-medium{
+  font-weight: 500;
 }
 .uppercase{
   text-transform: uppercase;
@@ -784,7 +791,7 @@ body{
   color: rgb(0 19 255 / var(--tw-text-opacity));
 }
 .text-\[\#\#1C2BDA\]{
-  color: #1C2BDA;
+  color: ##1C2BDA;
 }
 .text-\[\#1C2BDA\]{
   --tw-text-opacity: 1;
@@ -797,6 +804,14 @@ body{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-dark{
+  --tw-text-opacity: 1;
+  color: rgb(9 14 52 / var(--tw-text-opacity));
+}
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(48 86 211 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;
@@ -1315,6 +1330,10 @@ input[type="radio"]:checked ~ .box span{
 .mapFour .jvm-zoom-btn.jvm-zoomout{
   right: 0px;
 }
+.hover\:text-primary:hover{
+  --tw-text-opacity: 1;
+  color: rgb(48 86 211 / var(--tw-text-opacity));
+}
 :is(.dark .dark\:inline-block){
   display: inline-block;
 }
@@ -1358,12 +1377,20 @@ input[type="radio"]:checked ~ .box span{
     right: 1rem;
   }
 
+  .lg\:ml-6{
+    margin-left: 1.5rem;
+  }
+
   .lg\:block{
     display: block;
   }
 
   .lg\:flex{
     display: flex;
+  }
+
+  .lg\:inline-flex{
+    display: inline-flex;
   }
 
   .lg\:w-\[64px\]{
@@ -1399,6 +1426,10 @@ input[type="radio"]:checked ~ .box span{
   }
 }
 @media (min-width: 1140px){
+
+  .xl\:ml-12{
+    margin-left: 3rem;
+  }
 
   .xl\:text-2xl{
     font-size: 1.5rem;
