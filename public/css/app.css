@@ -784,7 +784,7 @@ body{
   color: rgb(0 19 255 / var(--tw-text-opacity));
 }
 .text-\[\#\#1C2BDA\]{
-  color: ##1C2BDA;
+  color: #1C2BDA;
 }
 .text-\[\#1C2BDA\]{
   --tw-text-opacity: 1;
@@ -793,6 +793,10 @@ body{
 .text-\[\#204DE3\]{
   --tw-text-opacity: 1;
   color: rgb(32 77 227 / var(--tw-text-opacity));
+}
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;
