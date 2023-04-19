@@ -601,6 +601,9 @@ body{
 .top-full{
   top: 100%;
 }
+.top-1{
+  top: 0.25rem;
+}
 .z-10{
   z-index: 10;
 }
@@ -626,6 +629,9 @@ body{
 }
 .mr-3{
   margin-right: 0.75rem;
+}
+.ml-0{
+  margin-left: 0px;
 }
 .block{
   display: block;
@@ -1381,6 +1387,10 @@ input[type="radio"]:checked ~ .box span{
     margin-right: 0.75rem;
   }
 
+  .lg\:ml-10{
+    margin-left: 2.5rem;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -1432,6 +1442,10 @@ input[type="radio"]:checked ~ .box span{
 
   .xl\:mr-4{
     margin-right: 1rem;
+  }
+
+  .xl\:ml-16{
+    margin-left: 4rem;
   }
 
   .xl\:text-2xl{

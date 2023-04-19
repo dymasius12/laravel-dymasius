@@ -1,4 +1,4 @@
-<div class="mb-6 flex items-center">
+<div {{ $attributes->class(['flex items-center']) }}>
     <a href="https://www.instagram.com/radendym/"
         target="_blank"
         class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-2 border-dark dark:border-white text-dark dark:text-white hover:text-white hover:border-primary hover:dark:border-primary sm:mr-4 lg:mr-3 xl:mr-4">

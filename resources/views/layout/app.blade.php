@@ -16,6 +16,8 @@
     <!-- <script src="/resources/js/app.js"></script> -->
 
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
