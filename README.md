@@ -69,7 +69,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 run docker first! 
 ```
 Run sail, -d for detach
-> ./vendor/bin/sail up -d
-
+```
+./vendor/bin/sail up -d
+```
 Run the docker sail shell
-> ./vendor/bin/sail shell
+```
+./vendor/bin/sail shell
+```
