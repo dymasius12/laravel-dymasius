@@ -65,8 +65,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Run the page locally:
-> run docker first! 
-
+```
+run docker first! 
+```
 Run sail, -d for detach
 > ./vendor/bin/sail up -d
 
