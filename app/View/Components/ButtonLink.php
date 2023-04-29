@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\home;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class video-tutorials extends Component
+class ButtonLink extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(public string $href, public string $target = 'self', public string $variant = 'primary')
     {
         //
     }
@@ -21,6 +21,6 @@ class video-tutorials extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.home.video-tutorials');
+        return view('components.button-link');
     }
 }
