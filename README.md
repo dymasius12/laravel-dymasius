@@ -83,7 +83,92 @@ This is to make a component
 php artisan make:component <name of component>
 ```
 
+This is to make a component for view only, such as buttons and dots or other random components
+```
+php artisan make:component about-dots --view
+```
+
 while doing development, better run this:
 ```
 npm run watch
 ```
+
+### Some dictionary used in this tailwind css
+
+| Tailwind CSS Settings | Meaning Definition                                               |
+|-----------------------|-------------------------------------------------------------------|
+| `flex`                | Enables flex layout for an element, setting its display to `flex`.|
+| `flex-wrap`           | Controls how flex items wrap within a flex container.             |
+| `justify-between`     | Distributes flex items evenly along the main axis with equal space between them. |
+| `dark`                | Prefix used to apply styles only when dark mode is active.        |
+| `lg`                  | Breakpoint prefix for large screen sizes, typically >=1024px.      |
+| `bg`                  | Stands for "background"; used to set background color or image properties. |
+| `bg-slate`            | Sets the background color to a pre-defined shade of slate.        |
+| `items-center`        | Aligns flex items vertically in the center of a flex container.   |
+| `-mx-4`               | Applies a negative horizontal margin of 1rem to the element.      |
+| `overflow-hidden`     | Sets the overflow property to `hidden`, hiding content outside of an element's bounds. |
+| `w-full`              | Sets an element's width to 100% of its parent container.          |
+| `w-6/12`              | Sets an element's width to 50% (6/12) of its parent container.    |
+| `px-4`                | Applies horizontal padding of 1rem (16px) to an element.          |
+| `xl`                  | Breakpoint prefix for extra-large screen sizes, typically >=1280px.|
+| `sm`                  | Breakpoint prefix for small screen sizes, typically >=640px.       |
+| `rounded-2xl`         | Applies a large border radius (2xl) to an element.                |
+| `mt-10`               | Applies a top margin of 2.5rem (40px) to an element.              |
+| `font-semibold`       | Sets the font weight of an element to semi-bold.                  |
+| `text-lg`             | Sets the font size of an element to large.                        |
+| `text-primary`        | Sets the text color to a predefined primary color. *Note: This class is not part of the default Tailwind CSS classes, but can be defined in the configuration file.* |
+| `mb-2`                | Applies a bottom margin of 0.5rem (8px) to an element.            |
+| `block`               | Sets the display property of an element to `block`.               |
+| `text-sm`             | Sets the font size of an element to small.                        |
+| `text-gray-500`       | Sets the text color to a pre-defined shade of gray (gray-500).    |
+| `italic`              | Sets the font style of an element to italic.                      |
+| `py-2`                | Applies vertical padding of 0.5rem (8px) to an element.           |
+| `px-3`                | Applies horizontal padding of 0.75rem (12px) to an element.       |
+| `border-l-4`          | Adds a 4-pixel-wide border to the left side of an element.        |
+| `border-amber-500`    | Sets the border color to a pre-defined shade of amber (amber-500). *Note: The `amber` color is not part of the default Tailwind CSS colors, but can be defined in the configuration file.* |
+
+### Frequently Used Tailwind CSS Settings
+
+| Tailwind CSS Settings | Meaning Definition                                               |
+|-----------------------|-------------------------------------------------------------------|
+| `container`           | Centers an element and sets its max-width based on screen size.   |
+| `mx-auto`             | Centers an element horizontally by applying equal left and right margins (`auto`). |
+| `text-center`         | Centers text within an element.                                   |
+| `font-bold`           | Sets the font weight of an element to bold.                       |
+| `uppercase`           | Transforms the text inside an element to uppercase.               |
+| `tracking-wide`       | Increases the letter-spacing of an element.                       |
+| `leading-none`        | Sets the line-height of an element to 1.                          |
+| `border`              | Adds a border to an element.                                      |
+| `border-t`            | Adds a border to the top side of an element.                      |
+| `border-b`            | Adds a border to the bottom side of an element.                   |
+| `border-r`            | Adds a border to the right side of an element.                   |
+| `border-l`            | Adds a border to the left side of an element.                    |
+| `border-none`         | Removes all borders from an element.                              |
+| `shadow`              | Applies a subtle drop-shadow to an element.                       |
+| `shadow-lg`           | Applies a large drop-shadow to an element.                        |
+| `shadow-none`         | Removes any drop-shadow from an element.                          |
+| `opacity-50`          | Sets the opacity of an element to 50%.                            |
+| `cursor-pointer`      | Changes the cursor to a pointer when hovering over an element.    |
+| `hover:bg-blue-500`   | Changes the background color to blue-500 when an element is hovered. |
+| `focus:outline-none`  | Removes the default outline when an element is focused.           |
+
+
+
+
+# More Tailwind CSS Settings
+
+This table describes some important Tailwind CSS settings and their meanings:
+
+| Setting Name | Meaning Definition |
+|--------------|--------------------|
+| `theme`      | The `theme` setting is used to customize the default styles provided by Tailwind CSS, such as colors, fonts, and spacing. You can modify these values or add your custom styles to better match your project's design. |
+| `variants`   | The `variants` setting allows you to control which CSS properties can be used with different pseudo-classes like `hover`, `focus`, and `active`. By customizing this setting, you can enable or disable specific variants for each utility. |
+| `plugins`    | The `plugins` setting is used to extend Tailwind CSS with additional functionality. You can include third-party plugins or create your own to add custom utility classes and components to your project. |
+| `purge`      | The `purge` setting is used to optimize the final CSS output by removing unused styles from your production build. By specifying the paths to your HTML, JS, or template files, Tailwind CSS can analyze the usage of the utility classes and remove those that aren't used in your project. |
+| `screens`    | The `screens` setting allows you to define custom breakpoints for your project. These breakpoints can be used to create responsive designs and apply styles based on the screen size or device type. |
+| `separator`  | The `separator` setting defines the character used to separate modifiers from their base classes. By default, Tailwind CSS uses a colon (`:`), but you can change this if it conflicts with your project's syntax or preferences. |
+
+For more information about configuring Tailwind CSS, please refer to the [official documentation](https://tailwindcss.com/docs/configuration).
+
+
+
