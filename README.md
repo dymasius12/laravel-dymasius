@@ -93,39 +93,65 @@ while doing development, better run this:
 npm run watch
 ```
 
-### Some dictionary used in this tailwind css
+### Some dictionary used in this Tailwind CSS
 
 | Tailwind CSS Settings | Meaning Definition                                               |
 |-----------------------|-------------------------------------------------------------------|
-| `flex`                | Enables flex layout for an element, setting its display to `flex`.|
-| `flex-wrap`           | Controls how flex items wrap within a flex container.             |
-| `justify-between`     | Distributes flex items evenly along the main axis with equal space between them. |
-| `dark`                | Prefix used to apply styles only when dark mode is active.        |
-| `lg`                  | Breakpoint prefix for large screen sizes, typically >=1024px.      |
+| `-mx-4`               | Applies a negative horizontal margin of 1rem to the element.      |
 | `bg`                  | Stands for "background"; used to set background color or image properties. |
 | `bg-slate`            | Sets the background color to a pre-defined shade of slate.        |
-| `items-center`        | Aligns flex items vertically in the center of a flex container.   |
-| `-mx-4`               | Applies a negative horizontal margin of 1rem to the element.      |
-| `overflow-hidden`     | Sets the overflow property to `hidden`, hiding content outside of an element's bounds. |
-| `w-full`              | Sets an element's width to 100% of its parent container.          |
-| `w-6/12`              | Sets an element's width to 50% (6/12) of its parent container.    |
-| `px-4`                | Applies horizontal padding of 1rem (16px) to an element.          |
-| `xl`                  | Breakpoint prefix for extra-large screen sizes, typically >=1280px.|
-| `sm`                  | Breakpoint prefix for small screen sizes, typically >=640px.       |
-| `rounded-2xl`         | Applies a large border radius (2xl) to an element.                |
-| `mt-10`               | Applies a top margin of 2.5rem (40px) to an element.              |
+| `block`               | Sets the display property of an element to `block`.               |
+| `border-amber-500`    | Sets the border color to a pre-defined shade of amber (amber-500). *Note: The `amber` color is not part of the default Tailwind CSS colors, but can be defined in the configuration file.* |
+| `border-l-4`          | Adds a 4-pixel-wide border to the left side of an element.        |
+| `border-r-2`          | Adds a 2-pixel-wide border to the right side of an element.       |
+| `border-t-2`          | Adds a 2-pixel-wide border to the top side of an element.         |
+| `border-b-2`          | Adds a 2-pixel-wide border to the bottom side of an element.      |
+| `cursor-pointer`      | Changes the cursor to a pointer when hovering over an element.    |
+| `dark`                | Prefix used to apply styles only when dark mode is active.        |
+| `flex`                | Enables flex layout for an element, setting its display to `flex`.|
+| `flex-wrap`           | Controls how flex items wrap within a flex container.             |
 | `font-semibold`       | Sets the font weight of an element to semi-bold.                  |
+| `font-bold`           | Sets the font weight of an element to bold.                       |
+| `font-light`          | Sets the font weight of an element to light.                      |
+| `grid`                | Enables grid layout for an element, setting its display to `grid`.|
+| `grid-cols-3`         | Defines a 3-column grid layout for a grid container.              |
+| `h-12`                | Sets an element's height to 3rem (48px).                          |
+| `hidden`              | Sets the display property of an element to `none`.                |
+| `hover:bg-blue-500`   | Changes the background color to a pre-defined shade of blue (blue-500) when hovering over an element. |
+| `hover:text-red-500`  | Changes the text color to a pre-defined shade of red (red-500) when hovering over an element. |
+| `inline-block`        | Sets the display property of an element to `inline-block`.        |
+| `italic`              | Sets the font style of an element to italic.                      |
+| `items-center`        | Aligns flex items vertically in the center of a flex container.   |
+| `justify-between`     | Distributes flex items evenly along the main axis with equal space between them. |
+| `lg`                  | Breakpoint prefix for large screen sizes, typically >=1024px.      |
+| `leading-tight`       | Sets the line-height to a tighter value, decreasing the space between lines of text. |
+| `md`                  | Breakpoint prefix for medium screen sizes, typically >=768px.      |
+| `min-h-screen`        | Sets the minimum height of an element to the height of the viewport. |
+| `m-5`                 | Applies a 1.25rem (20px) margin to all sides of an element.       |
+| `mb-2`                | Applies a bottom margin of 0.5rem (8px) to an element.            |
+| `mt-10`               | Applies a top margin of 2.5rem (40px) to an element.              |
+| `overflow-hidden`     | Sets the overflow property to `hidden`, hiding content outside of an element's bounds. |
+| `opacity-50`          | Sets the opacity of an element to 50%.                            |
+| `p-6`                 | Applies padding of 1.5rem (24px) to all sides of an element.      |
+| `px-3`                | Applies horizontal padding of 0.75rem (12px) to an element.       |
+| `px-4`                | Applies horizontal padding of 1rem (16px) to an element.          |
+| `py-2`                | Applies vertical padding of 0.5rem (8px) to an element.           |
+| `rounded-2xl`         | Applies a large border radius (2xl) to an element.                |
+| `relative`            | Sets the position property of an element to `relative`.           |
+| `sm`                  | Breakpoint prefix for small screen sizes, typically >=640px.       |
+| `text-center`         | Aligns text within an element to the center.                      |
+| `text-left`           | Aligns text within an element to the left.                        |
+| `text-right`          | Aligns text within an element to the right.                       |
+| `text-xl`             | Sets the font size of an element to extra-large.                  |
+| `text-gray-500`       | Sets the text color to a pre-defined shade of gray (gray-500).    |
 | `text-lg`             | Sets the font size of an element to large.                        |
 | `text-primary`        | Sets the text color to a predefined primary color. *Note: This class is not part of the default Tailwind CSS classes, but can be defined in the configuration file.* |
-| `mb-2`                | Applies a bottom margin of 0.5rem (8px) to an element.            |
-| `block`               | Sets the display property of an element to `block`.               |
 | `text-sm`             | Sets the font size of an element to small.                        |
-| `text-gray-500`       | Sets the text color to a pre-defined shade of gray (gray-500).    |
-| `italic`              | Sets the font style of an element to italic.                      |
-| `py-2`                | Applies vertical padding of 0.5rem (8px) to an element.           |
-| `px-3`                | Applies horizontal padding of 0.75rem (12px) to an element.       |
-| `border-l-4`          | Adds a 4-pixel-wide border to the left side of an element.        |
-| `border-amber-500`    | Sets the border color to a pre-defined shade of amber (amber-500). *Note: The `amber` color is not part of the default Tailwind CSS colors, but can be defined in the configuration file.* |
+| `uppercase`           | Transforms the text within an element to uppercase.               |
+| `w-6/12`              | Sets an element's width to 50% (6/12) of its parent container.    |
+| `w-full`              | Sets an element's width to 100% of its parent container.          |
+| `xl`                  | Breakpoint prefix for extra-large screen sizes                    |
+| `z-10`                | Sets the z-index of an element to 10.                             |
 
 ### Frequently Used Tailwind CSS Settings
 
