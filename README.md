@@ -66,7 +66,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Run the page locally:
 ```
-run docker first! 
+run docker first! follow below step or commands
 ```
 Run sail, -d for detach
 ```
@@ -75,4 +75,15 @@ Run sail, -d for detach
 Run the docker sail shell
 ```
 ./vendor/bin/sail shell
+```
+After running docker shell, you can use php artisan commands:
+
+This is to make a component
+```
+php artisan make:component <name of component>
+```
+
+while doing development, better run this:
+```
+npm run watch
 ```

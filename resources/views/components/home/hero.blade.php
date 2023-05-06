@@ -4,16 +4,15 @@
             <div class="w-full lg:w-5/12 px-4">
                 <div class="hero-content">
                     <h1
-                        class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
-                        My name is Dymasius <br />
+                        class="text-dark dark:text-white font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
+                        Greetings! <br />
                         I am a Software Engineer & Data Engineer.
                     </h1>
-                    <p class="text-base mb-8 max-w-[520px]">
-                        I am a software engineer, with almost three years experience as a Data Analyst, Data Engineer,
-                        and Web Development. <br />
+                    <p class="text-base dark:text-white mb-8 max-w-[520px]">
+                        My name is Dymasius Yusuf Sitepu. I am a software developer, with almost three years experience as a Data Analyst, Data Engineer, Software Engineer, and Web Development. <br /> <br />
                         I love sharing my knowledge about my university life at Youtube. <br />
-                        I also AI enthusiast, with research engineer experience at Stanford, as a co-author for applying
-                        machine learning to covid-19 paper.
+                        I am also an AI enthusiast, I was lucky to have research engineer experience at Stanford University, as a co-author for applying
+                        machine learning to covid-19 paper. You can search my paper title: "Effective Approaches to Disaster Evacuation During a COVID-Like Pandemic"
 
                         <a class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary"
                             href="https://youtube.com/getkampus" target="_blank">Youtube Channel</a> <br />
