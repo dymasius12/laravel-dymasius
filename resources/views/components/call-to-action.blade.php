@@ -1,5 +1,5 @@
 <section>
-    <div class=" bg-primary relative rounded overflow-hidden py-12 px-8 md:p-[70px] z-10 ">
+    <div class="bg-primary relative rounded overflow-hidden py-12 px-8 md:p-[70px] z-10">
         <div class="container mx-auto">
             <div class="flex flex-wrap items-center -mx-4">
                 <div class="w-full lg:w-1/2 px-4">
